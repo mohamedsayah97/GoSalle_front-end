@@ -1,0 +1,28 @@
+#hero {
+    padding: 20px;
+    margin-top: 110px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dcxzlpare/image/upload/v1752615222/salle_udxlx2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    .hero-section {
+        margin-left: 30px;
+    }
+    .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #1a5a06;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-left: 30px;
+        &:hover {
+            background-color: #31850a;
+            opacity: 0.8;
+            transition: background-color 0.3s ease;
+        }
+    }
+}

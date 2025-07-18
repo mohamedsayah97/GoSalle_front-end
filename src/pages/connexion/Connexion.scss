@@ -1,0 +1,36 @@
+#login-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 30%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .connexion-container {
+    background-color: rgb(131, 138, 131);
+    text-align: center;
+    color: #fff;
+    // padding-top: 200px;
+    // padding-bottom: 200px;
+    padding: 180px;
+    width: 300px;
+  }
+  .btn-connexion{
+    background-color: rgb(17, 88, 17);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 7px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .btn-connexion:hover{
+    background-color: rgb(11, 141, 11);
+    transition: opacity 0.3s ease;
+  }
+  .ligne{
+    color: #333;
+    font-size: 16px;
+  }
+}

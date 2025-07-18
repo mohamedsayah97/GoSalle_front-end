@@ -1,0 +1,24 @@
+#lieu{
+    text-align: center;
+   
+    p{
+        font-size: 1.5rem;
+        color: #000000;
+    }
+    .btn-lieu{
+        background-color: #1a5a06;
+        color: #ffffff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease;
+
+        &:hover{
+            background-color: #31850a;
+            transition: background-color 0.3s ease;
+
+        }
+    }
+}
