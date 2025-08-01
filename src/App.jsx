@@ -17,8 +17,8 @@ const App = () => {
      <Lieu />
      <Partenair />
      <Footer />
-     <Copyright /> 
-      <Connexion /> */}
+     <Copyright />
+      <Connexion /> */} 
      <Inscription />
      
     </>
