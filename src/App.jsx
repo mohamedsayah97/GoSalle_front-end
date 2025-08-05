@@ -6,21 +6,26 @@ import Footer from './pages/page1/footer/Footer.jsx'
 import Copyright from './components/copyright/Copyright.jsx'
 import Connexion from './pages/connexion/Connexion.jsx'
 import Inscription from './pages/inscription/Inscription.jsx'
+import Header from './components/header/Header.jsx'
+import Boutton from './components/boutton/Boutton.jsx'
+import AjoutSalle from './pages/ajoutSalle/AjoutSalle.jsx'
 
 
 
 const App = () => {
   return (
     <>
-     <Navbar />
-     {/* <Hero />
+     {/* <Navbar />
+     <Hero />
      <Lieu />
      <Partenair />
      <Footer />
-     <Copyright />*/} 
+     <Copyright />
       <Connexion /> 
-     {/* <Inscription /> */}
-     
+     <Inscription /> */}
+     <Header />
+     {/* <Boutton /> */}
+     <AjoutSalle />
     </>
   )
 }

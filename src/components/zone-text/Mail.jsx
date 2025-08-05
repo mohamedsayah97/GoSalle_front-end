@@ -3,7 +3,7 @@ import "./Mail.scss"
 const Mail = ({labelText, type, name, holderValue, value, onChange}) => {
   return (
     <div className="mail-container">
-      <label>{labelText} :</label>
+      <label>{labelText} </label>
       <input 
         type={type}
         name={name}
