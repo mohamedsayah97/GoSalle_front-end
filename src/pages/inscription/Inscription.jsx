@@ -4,6 +4,7 @@ import "./Inscription.scss";
 import { useState } from "react";
 import { Instance } from "../../config/axios";
 import { Alert } from "bootstrap";
+import Navbar from "../page1/navbar/Navbar";
 
 const Inscription = () => {
   const [nom, setNom] = useState("");
@@ -48,6 +49,8 @@ const handleSubmit = (e) => {
 };
 
   return (
+    <>
+    <Navbar />
     <div id="Inscription-container">
       <form onSubmit={handleSubmit}>
         <div className="ins-container">
@@ -145,6 +148,7 @@ const handleSubmit = (e) => {
         </div>
       </form>
     </div>
+    </>
   );
 };
 

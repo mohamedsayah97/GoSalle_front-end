@@ -17,9 +17,8 @@
   }
 
   .nav-links-container {
-    flex-grow: 1; 
     display: flex;
-    justify-content: center; 
+    align-items: center;
 
     .nav-links {
       display: flex;
@@ -45,6 +44,24 @@
             color: #fff;
           }
         }
+      }
+    }
+  }
+
+  .btn-connexion {
+    button {
+      background-color: #097429;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #064d1f;
       }
     }
   }

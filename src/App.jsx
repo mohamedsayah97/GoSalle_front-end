@@ -9,23 +9,22 @@ import Inscription from './pages/inscription/Inscription.jsx'
 import Header from './components/header/Header.jsx'
 import Boutton from './components/boutton/Boutton.jsx'
 import AjoutSalle from './pages/ajoutSalle/AjoutSalle.jsx'
+import SalleCard from './components/salle-card/SalleCard.jsx'
+import { Route, Routes } from 'react-router'
+import Home from './pages/Home.jsx'
 
 
 
 const App = () => {
   return (
     <>
-     {/* <Navbar />
-     <Hero />
-     <Lieu />
-     <Partenair />
-     <Footer />
-     <Copyright />
-      <Connexion /> 
-     <Inscription /> */}
-     <Header />
-     {/* <Boutton /> */}
-     <AjoutSalle />
+    <Routes>
+       <Route path="/" element={<Home />} />
+       <Route path="/connexion" element={<Connexion />} /> 
+       <Route path="/inscription" element={<Inscription />} />    
+       <Route path='/ajout-salle' element={<AjoutSalle />} />
+       
+     </Routes>
     </>
   )
 }

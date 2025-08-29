@@ -3,6 +3,7 @@ import Mail from "../../components/zone-text/Mail"
 import "./Connexion.scss"
 import { useState } from "react"
 import { Instance } from "../../config/axios"
+import Navbar from "../page1/navbar/Navbar"
 
 const Connexion = () => {
   const [email, setEmail] = useState("")
@@ -25,6 +26,8 @@ const Connexion = () => {
 
   }
   return (
+    <>
+    <Navbar />
     <div id="login-container">
       <form onSubmit={handleSubmit}>
       <div className="connexion-container">
@@ -49,6 +52,7 @@ const Connexion = () => {
     </div>
     </form>
     </div>
+    </>
   )
 }
 
